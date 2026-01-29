@@ -34,7 +34,8 @@ body {
 }
 
 .logo {
-  width: 140px;
+  width: 80px;
+  border-radius: 10px;
 }
 
 /* SECTION FORMULAIRE */
