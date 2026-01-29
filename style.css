@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+body {
+  min-height: 100vh;
+  background-color: #f4f6f8;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+.image-section {
+  flex: 1;
+  background-image: url("images/background.jpg"); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 140px;
+}
+
+/* SECTION FORMULAIRE */
+.form-section {
+  flex: 1.2;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  width: 80%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* FORMULAIRE */
+form {
+  background-color: #f9fafb;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f6d4a;
+  box-shadow: 0 0 0 2px rgba(79, 109, 74, 0.2);
+}
+
+/* BOUTON */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4f6d4a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #3e563a;
+}
+
+/* LIEN */
+.login-link {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.login-link a {
+  color: #4f6d4a;
+  text-decoration: none;
+  font-weight: bold;
+}
