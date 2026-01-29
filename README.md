@@ -29,4 +29,4 @@ images/
 
 ## Auteur
 
-Votre nom
+Bob Barthez Saint Fort
